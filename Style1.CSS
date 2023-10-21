@@ -1,0 +1,103 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(wallpaper/sigmund-exVRu6ffK24-unsplash.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    max-height: 350px;
+    max-width: 320px;
+    background-color: rgba(255,255,255,0.03);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255,255, 0.1);
+    box-shadow: 0px 0px 40px rgba(0, 7, 16, 0.6);
+    padding: 50px 35px;
+}
+form*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dbd9d9;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h4{
+    color: #dbd9d9;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: center;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0 10px;
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: 8px;
+    font-weight: 300;
+    border: none;
+}
+input::placeholder{
+    color: #dbd9d9;
+}
+input:hover{
+    border: 1px solid black;
+}
+label
+{
+    font-family: cursive;
+    color: #dbd9d9;
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 200;   
+}
+button{
+    background-color: #dbd9d9;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(28, 107, 224);
+}
+.icon{
+    display: flex;
+    margin-top: 8px;
+}
+.icon div{
+    width: 150px;
+    border-radius: 3px;
+    padding: 4px 10px 4px 10px;
+    background-color:rgb(238, 97, 97) ;
+    color: white;
+    text-align: center;
+}
+.icon .fb{
+    margin-left: 25px;
+}
+.icon .fb:hover{
+    background-color: rgb(28, 107, 224);
+}
+.icon .go:hover{
+    background-color: #4285F4;
+}
+.icon i{
+    justify-content: space-around;
+    margin: 10px 0 4px;
+}
+
